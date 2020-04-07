@@ -12,6 +12,7 @@ import java.awt.geom.Rectangle2D;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+@SuppressWarnings("serial")
 public class SwingPanel extends JPanel implements ActionListener {
 
     private double centerX = 0.0;
